@@ -1,6 +1,6 @@
 package TrabalhoDeClassePOO;
 
-public class TrabalhadorPorComissao extends Trabalhador implements SeguroSaude{
+public class TrabalhadorPorComissao extends Trabalhador{
 
    private String matricula;
    private int quantidadeDependentes;

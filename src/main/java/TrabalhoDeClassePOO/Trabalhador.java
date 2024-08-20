@@ -1,6 +1,6 @@
 package TrabalhoDeClassePOO;
 
-public abstract class Trabalhador {
+public abstract class Trabalhador implements SeguroSaude, AssociacaoClube{
     private String nome;
     private String sobrenome;
 

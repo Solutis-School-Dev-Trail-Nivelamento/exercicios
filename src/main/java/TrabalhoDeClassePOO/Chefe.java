@@ -1,6 +1,6 @@
 package TrabalhoDeClassePOO;
 
-public class Chefe extends Trabalhador implements SeguroSaude {
+public class Chefe extends Trabalhador{
     private double salarioBase;
     private String matriculaPlano;
     private int qtdeDependentes;
