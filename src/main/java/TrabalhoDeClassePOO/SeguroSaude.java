@@ -1,12 +1,12 @@
 package TrabalhoDeClassePOO;
 
 public interface SeguroSaude {
-    public String LEGISLACAO = "Lei nº 1111.2 de 1810";
+    String LEGISLACAO = "Lei nº 1111.2 de 1810";
 
-    public String getMatriculaPlano();
+    String getMatriculaPlano();
 
-    public int getQtdeDependentes();
+    int getQtdeDependentes();
 
-    public String getNomeCompletoTitular();
+    String getNomeCompletoTitular();
 
 }

@@ -8,24 +8,22 @@ public class TrabalhadorPorComissao extends Trabalhador implements SeguroSaude{
     public TrabalhadorPorComissao(String nome, String sobrenome, String matricula, int quantidadeDependentes) {
         super(nome, sobrenome);
         this.matricula = matricula;
+        this.quantidadeDependentes = quantidadeDependentes;
     }
 
-    @Override
     public String getMatriculaPlano() {
-        return "";
+        return matricula;
     }
 
-    @Override
     public int getQtdeDependentes() {
-        return 0;
+        return quantidadeDependentes;
     }
 
-    @Override
     public String getNomeCompletoTitular() {
-        return "";
+        return getNome() + " " + getSobrenome();
     }
 
-    @Override
+
     public double gerarSalario() {
         return 0;
     }

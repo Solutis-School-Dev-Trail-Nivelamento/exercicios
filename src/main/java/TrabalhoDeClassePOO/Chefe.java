@@ -6,31 +6,29 @@ public class Chefe extends Trabalhador implements SeguroSaude {
     private int qtdeDependentes;
 
     // Construtor de Chefe
-    public Chefe(String nome, String sobrenome) {
+    public Chefe(String nome, String sobrenome, double salarioBase, String matriculaPlano, int qtdeDependentes) {
         super(nome, sobrenome);
+        this.salarioBase = salarioBase;
+        this.matriculaPlano = matriculaPlano;
+        this.qtdeDependentes = qtdeDependentes;
     }
 
     public String getMatriculaPlano() {
-        return this.matriculaPlano;
+        return matriculaPlano;
     }
+
     public int getQtdeDependentes() {
-        return this.qtdeDependentes;
+        return qtdeDependentes;
     }
+
     public String getNomeCompletoTitular() {
         return getNome() + " " + getSobrenome();
     }
 
-    private String getSobrenome() {
-        return "";
-    }
-
-    private String getNome() {
-        return "";
-    }
-
-    @Override
     public double gerarSalario() {
+        // Implemente a lógica de cálculo do salário aqui
         return 0;
     }
+
     // Demais métodos da classe.
 }

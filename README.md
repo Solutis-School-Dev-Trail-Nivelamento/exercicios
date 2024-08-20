@@ -1,0 +1,1 @@
+# Repositório para armazenar os exercícios feitos em aula e as listas de tarefas

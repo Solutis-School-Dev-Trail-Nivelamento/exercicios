@@ -9,6 +9,14 @@ public abstract class Trabalhador {
         this.sobrenome = sobrenome;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
     public abstract double gerarSalario();
-    //Demais métodos da classe Trabalhador
+
 }
