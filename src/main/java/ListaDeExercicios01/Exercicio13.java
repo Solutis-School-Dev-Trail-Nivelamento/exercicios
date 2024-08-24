@@ -1,4 +1,4 @@
-package ListaDeExercicios0;
+package ListaDeExercicios01;
 
 /*Escreva uma classe que imprima todas as possibilidades de que no lançamento
 de dois dados tenhamos o valor 7 como resultado da soma dos valores de cada dado.
